@@ -13,6 +13,7 @@ DB_PASSWORD=<Пароль пользователя>
 DB_HOST=<Имя или IP сервера с БД>
 DB_PORT=<Порт подключения>
 SERVER_DEBUG=<TRUE|FALSE по умолчанию False>
+AMS_ALLOWED_HOSTS=.localhost,127.0.0.1,[::1]
 ```
 Более подробно о подключение к БД можно узнать по ссылке https://docs.djangoproject.com/en/3.2/ref/databases/ 
 
